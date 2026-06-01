@@ -75,8 +75,8 @@ document.addEventListener("DOMContentLoaded", () => {
     if (typeof ScrollReveal !== 'undefined') {
         const sr = ScrollReveal({
             distance: '60px',
-            duration: 2500,
-            delay: 400,
+            duration: 1000,
+            delay: 150,
             reset: false
         });
 

@@ -85,7 +85,7 @@ body {
     text-shadow: 0 0 20px rgba(59, 130, 246, 0.6);
 }
 
-.welcome-content h3 {
+.welcome-content p {
     color: #94a3b8;
     font-size: 1.5rem;
     margin-top: 15px;
@@ -1050,7 +1050,7 @@ body {
         font-size: 3rem;
         letter-spacing: 4px;
     }
-    .welcome-content h3 {
+    .welcome-content p {
         font-size: 1.2rem;
         letter-spacing: 2px;
     }
@@ -1148,7 +1148,7 @@ body {
     .welcome-content h1::before {
         animation: textFillColor 1.5s cubic-bezier(0.77, 0, 0.175, 1) forwards 0.5s;
     }
-    .welcome-content h3 {
+    .welcome-content p {
         font-size: 1rem;
         letter-spacing: 1px;
     }
