@@ -74,20 +74,20 @@ document.addEventListener("DOMContentLoaded", () => {
     // ScrollReveal Animations
     if (typeof ScrollReveal !== 'undefined') {
         const sr = ScrollReveal({
-            distance: '60px',
-            duration: 1000,
-            delay: 150,
+            distance: '30px',
+            duration: 600,
+            delay: 50,
             reset: false
         });
 
-        sr.reveal('.section-title', { delay: 200, origin: 'top' });
-        sr.reveal('.about-image', { delay: 300, origin: 'left' });
-        sr.reveal('.about-text', { delay: 300, origin: 'right' });
-        sr.reveal('.skill-category', { delay: 200, origin: 'bottom', interval: 200 });
-        sr.reveal('.project-card', { delay: 200, origin: 'bottom', interval: 200 });
-        sr.reveal('.timeline-box.left', { delay: 200, origin: 'left', interval: 200 });
-        sr.reveal('.timeline-box.right', { delay: 200, origin: 'right', interval: 200 });
-        sr.reveal('.contact-card', { delay: 200, origin: 'bottom' });
+        sr.reveal('.section-title', { delay: 50, origin: 'top' });
+        sr.reveal('.about-image', { delay: 80, origin: 'left' });
+        sr.reveal('.about-text', { delay: 80, origin: 'right' });
+        sr.reveal('.skill-category', { delay: 50, origin: 'bottom', interval: 100 });
+        sr.reveal('.project-card', { delay: 50, origin: 'bottom', interval: 100 });
+        sr.reveal('.timeline-box.left', { delay: 50, origin: 'left', interval: 100 });
+        sr.reveal('.timeline-box.right', { delay: 50, origin: 'right', interval: 100 });
+        sr.reveal('.contact-card', { delay: 50, origin: 'bottom' });
     }
 
     // Animated Counters
