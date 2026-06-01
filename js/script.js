@@ -135,14 +135,6 @@ document.addEventListener("DOMContentLoaded", () => {
             speed: 300,
             glare: false
         });
-
-        // Elegant tilt for project cards and images
-        VanillaTilt.init(document.querySelectorAll(".project-card, .about-image"), {
-            max: 5,
-            speed: 400,
-            glare: true,
-            "max-glare": 0.1
-        });
     }
 
     // Particles.js
